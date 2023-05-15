@@ -1,0 +1,47 @@
+@import './main.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.container_footer {
+	font-family: 'Gilroy', sans-serif;
+	font-weight: 500;
+	max-width: 1300px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+
+
+/* Footer */
+
+.footer {
+	padding: 100px 0 100px;
+	letter-spacing: 0.04em;
+	font-size: 20px;
+	line-height: 36px;
+	color: #BACCC4;
+	background-color: #1B563D;
+}
+
+.footer a {
+	letter-spacing: 0.04em;
+	font-size: 20px;
+	line-height: 36px;
+	color: #BACCC4;
+}
+
+.footer__row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__nav {
+	display: flex;
+	column-gap: 104px;
+}
+
+
+
+.footer__socials {
+	display: flex;
+	column-gap: 26px;
+}

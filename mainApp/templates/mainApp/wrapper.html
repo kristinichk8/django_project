@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Valley tea</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/ideolog.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/story.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/reset.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/katalog.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/katalog3.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/katalog3.css' %}" type="text/css">
+</head>
+<body>
+<div><a href="#top" class="idTop"><img src='../../static/img/up.svg'/></a></div>
+		<header id="head">
+		<header class="header">
+			<img src="../../static/img/glav.png" class="background" />
+			<div class="container">
+				<div class="header__top">
+					<nav class="nav">
+						<ul class="nav_list">
+							<li class="ideal"><a href="#section-2"><h1>Идеология бренда</h1></a></li>
+							<li class="stat"><a href="#story"><h1>Тур</h1></a></li>
+							<li class="logo"><a href="#head"><img src="../../static/img/valley.png" width="300px" height="700px"></a></li>
+							<li class="ass"><a href="{% url 'products_home' %}"><h1>Ассортимент</h1></a></li>
+							<li class="user"><a href="{% url 'account:login' %}"><img src="../../static/img/user.png" width="30px" height="30px"></a></li>
+							<li class="basket"><a href=""><img src="../../static/img/basket.png" width="30px" height="30px"></a></li>
+
+						</ul>
+					</nav>
+				</div>
+
+			<div class="header__content">
+				<h1 class="header__title">Добро пожаловать в наш интернет-магазин!</h1>
+				<div class="header__text">
+					<p>Рады видеть тебя на страницах нашего сайта! Надеемся, ты найдешь то, что тебе по душе.</p>
+				</div>
+			</div>
+
+			</div>
+		</header>
+	</header>
+<section id="section-2">
+<section class="how-it">
+			<div class="container">
+				<div class="how-it-header">
+					<div class="how-it-header-head">
+						<h2 class="how-it-title">Почему именно мы?</h2>
+						<h3 class="how-it-subtitle">
+							Три главные причины, почему стоит приобрести продукцию у нас.
+						</h3>
+					</div>
+					<div class="how-it-header-content">
+						<p>
+							История нашего бренда только начинается!
+							Она будет длиться вечно, тк наш бренд - это искусство, а оно не должно опускаться до уровня общества. Искусство должно тянуть общество вверх, развиваться с каждым днём. Подробнее нашу историю опишут следующие пункты.
+						</p>
+					</div>
+				</div>
+
+				<div class="how-it-steps">
+					<div class="step">
+						<h4 class="step-heading" data-number="01">Обстановка</h4>
+
+						<div class="step-text">
+							<p>
+								Valley tea - это место, которое погрузит каждого человека в неиссякаемое гармонией ощущения, а также мир безмятежности и оптимизма.
+
+							</p>
+						</div>
+
+						<div class="step-img-wrapper">
+							<img
+								class="step-img"
+								src="../../static/img/stap2.jpg"
+								alt="Step Img"
+							/>
+						</div>
+					</div>
+					<!-- //step -->
+
+					<div class="step">
+						<h4 class="step-heading" data-number="02">Миссия</h4>
+
+						<div class="step-text">
+							<p>
+								Нашей миссией является найти индивидуальную нотку души каждого из наших покупателей, улучшать как физическое, так и духовное здоровье.
+							</p>
+						</div>
+
+						<div class="step-img-wrapper">
+							<img
+								class="step-img"
+								src="../../static/img/stap4.jpg"
+								alt="Step Img"
+							/>
+						</div>
+					</div>
+					<!-- //step -->
+
+					<div class="step">
+						<h4 class="step-heading" data-number="03">Забота</h4>
+
+						<div class="step-text">
+							<p>
+								Мы заботимся и ищем индивидуальный подход к каждому покупателю. Вседа помжем и сорентируем вас!
+							</p>
+						</div>
+
+						<div class="step-img-wrapper">
+							<img
+								class="step-img"
+								src="../../static/img/stap4.jpg"
+								alt="Step Img"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+</section>
+    </section>
+<section id="story">
+		<section class="story">
+			<div class="container container-wide">
+				<div class="story-row">
+
+											<div class="story-content">
+						<h2 class="story-heading">Мы подготовили для вас видео-тур нашего физического магазина!
+							<p>Погрузись в обсановку через экран!</h2></p>
+						<div class="story-text">
+							<p>Кликните на видео, чтобы начать погружение.</p>
+						</div>
+					</div>
+
+					<div class="story-video">
+						<div id="video-story-overlay" class="story-video-overlay">
+
+							<button id="video-story-btn" class="story-video-btn">
+								<img id="video-story-btn-icon" width="82" height="82" src="../../static/img/play-white.svg" alt="Play" />
+							</button>
+						</div>
+
+
+													<video class="story-video-object" id="video-story">
+															<source src="../../static/img/video.mp4" type="video/mp4">
+													</video>
+
+					</div>
+				</div>
+			</div>
+		</section>
+</section>
+<script src="../../static/js/video.js"></script>
+	<script src="../../static/js/bootstrap.min.js"></script>
+		<footer class="footer">
+			<div class="container_footer">
+					<div class="footer__row">
+							<div class="footer__copyright">© 2022 Valley tea</div>
+							<div class="footer__nav">
+									<div class="footer__email"><a href="mailto:info@invoriem.com">valley@tea.com</a></div>
+									<div class="footer__socials">
+											<a href="#!" class="social-icon"><img src="../../static/img/instagram.svg" alt="Link"></a>
+											<a href="#!" class="social-icon"><img src="../../static/img/facebook.svg" alt="Link"></a>
+											<a href="#!" class="social-icon"><img src="../../static/img/twitter.svg" alt="Link"></a>
+											<a href="#!" class="social-icon"><img src="../../static/img/linkedIn.svg" alt="Link"></a>
+									</div>
+							</div>
+					</div>
+			</div>
+	</footer>
+</body>
+</html>

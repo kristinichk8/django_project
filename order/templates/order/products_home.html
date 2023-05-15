@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Valley tea</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/katalog.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/katalog3.css' %}" type="text/css">
+</head>
+<body>
+<section class="section section-catalog">
+		<div class="container">
+			<header class="section__header">
+				<h2 class="section__title section__title--accent">Ассортимент</h2>
+				<nav class="catalog-nav">
+					<ul class="catalog-nav__wrapper">
+						<li class="catalog-nav__item">
+							<a href=""><button class="catalog-nav__btn is-active" type="button" data-category="tea">Чай</button></a>
+						</li>
+						<li class="catalog-nav__item">
+							<a href=""><button class="catalog-nav__btn" type="button" data-category="dishes">Посуда</button></a>
+						</li>
+						<li class="catalog-nav__item">
+							<a href=""></a><button class="catalog-nav__btn" type="button" data-category="gift_sets">Подарочные наборы</button></a>
+						</li>
+					</ul>
+				</nav >
+			</header>
+
+			<div class="catalog">
+				<div class="catalog__item" data-category="tea">
+					<div class="product catalog__product">
+						<img src="../../static/img/katalog/k4.png" alt="" class="product__img">
+						<div class="product__content">
+							<h3 class="product__title">Теплая ночь</h3>
+							<p class="product__description">Германия</p>
+							<p class="opis">Воздействие: расслабляет</p>
+							<p class="opis">Вкус: с кислинокой</p>
+						</div>
+						<footer class="product__footer">
+							<div class="product__sizes">
+								<button class="product__size is-active" type="button">100гр</button>
+								<button class="product__size" type="button">300гр</button>
+								<button class="product__size" type="button">500гр</button>
+							</div>
+							<div class="product__bottom">
+								<div class="product__price">
+									<span class="product__price-value">56</span>
+									<span class="product__currency">&#8381;</span>
+								</div>
+								<button class="btn product__btn" type="button">Купить</button>
+							</div>
+						</footer>
+					</div>
+				</div>
+				<div class="catalog__item" data-category="tea">
+					<div class="product catalog__product">
+						<img src="../../static/img/katalog/k5.png" alt="" class="product__img">
+						<div class="product__content">
+							<h3 class="product__title">Мула</h3>
+							<p class="product__description">Швейцария</p>
+							<p class="opis">Воздействие: пробуждает</p>
+							<p class="opis">Вкус: освежающий</p>
+						</div>
+						<footer class="product__footer">
+							<div class="product__sizes">
+								<button class="product__size is-active" type="button">100гр</button>
+								<button class="product__size" type="button">300гр</button>
+								<button class="product__size" type="button">500гр</button>
+							</div>
+							<div class="product__bottom">
+								<div class="product__price">
+									<span class="product__price-value">90</span>
+									<span class="product__currency">&#8381;</span>
+								</div>
+								<button class="btn product__btn" type="button">Купить</button>
+							</div>
+						</footer>
+					</div>
+				</div>
+				<div class="catalog__item" data-category="tea">
+					<div class="product catalog__product">
+						<img src="../../static/img/katalog/k6.png" alt="" class="product__img">
+						<div class="product__content">
+							<h3 class="product__title">Бадер</h3>
+							<p class="product__description">Нидеранды</p>
+							<p class="opis">Воздействие: бодрит</p>
+							<p class="opis">Вкус: терпкий</p>
+						</div>
+						<footer class="product__footer">
+							<div class="product__sizes">
+								<button class="product__size is-active" type="button">100гр</button>
+								<button class="product__size" type="button">300гр</button>
+								<button class="product__size" type="button">500гр</button>
+							</div>
+							<div class="product__bottom">
+								<div class="product__price">
+									<span class="product__price-value">110</span>
+									<span class="product__currency">&#8381;</span>
+								</div>
+								<button class="btn product__btn" type="button">Купить</button>
+							</div>
+						</footer>
+					</div>
+				</div>
+				<div class="catalog__item" data-category="tea">
+					<div class="product catalog__product">
+						<img src="../../static/img/katalog/k7.png" alt="" class="product__img">
+						<div class="product__content">
+							<h3 class="product__title">Роза</h3>
+							<p class="product__description">Италия</p>
+							<p class="opis">Воздействие: успокаивает</p>
+							<p class="opis">Вкус: освежающий, с ароматом розы</p>
+						</div>
+						<footer class="product__footer">
+							<div class="product__sizes">
+								<button class="product__size is-active" type="button">100гр</button>
+								<button class="product__size" type="button">300гр</button>
+								<button class="product__size" type="button">500гр</button>
+							</div>
+							<div class="product__bottom">
+								<div class="product__price">
+									<span class="product__price-value">89</span>
+									<span class="product__currency">&#8381;</span>
+								</div>
+								<button class="btn product__btn" type="button">Купить</button>
+							</div>
+						</footer>
+					</div>
+				</div>
+				<div class="catalog__item" data-category="tea">
+					<div class="product catalog__product">
+						<img src="../../static/img/katalog/k8.png" alt="" class="product__img">
+						<div class="product__content">
+							<h3 class="product__title">Фит плюс </h3>
+							<p class="product__description">Великобритания</p>
+							<p class="opis">Воздействие: похудение</p>
+							<p class="opis">Вкус: бодрит</p>
+						</div>
+						<footer class="product__footer">
+							<div class="product__sizes">
+								<button class="product__size is-active" type="button">100гр</button>
+								<button class="product__size" type="button">300гр</button>
+								<button class="product__size" type="button">500гр</button>
+							</div>
+							<div class="product__bottom">
+								<div class="product__price">
+									<span class="product__price-value">230</span>
+									<span class="product__currency">&#8381;</span>
+								</div>
+								<button class="btn product__btn" type="button">Купить</button>
+							</div>
+						</footer>
+					</div>
+				</div>
+				<div class="catalog__item" data-category="tea">
+					<div class="product catalog__product">
+						<img src="../../static/img/katalog/k9.png" alt="" class="product__img">
+						<div class="product__content">
+							<h3 class="product__title">Слайтли</h3>
+							<p class="product__description">Румыния</p>
+							<p class="opis">Воздействие: расслабляет</p>
+							<p class="opis">Вкус: шоколадный</p>
+						</div>
+						<footer class="product__footer">
+							<div class="product__sizes">
+								<button class="product__size is-active" type="button">100гр</button>
+								<button class="product__size" type="button">300гр</button>
+								<button class="product__size" type="button">500гр</button>
+							</div>
+							<div class="product__bottom">
+								<div class="product__price">
+									<span class="product__price-value">95</span>
+									<span class="product__currency">&#8381;</span>
+								</div>
+								<button class="btn product__btn" type="button">Купить</button>
+							</div>
+						</footer>
+					</div>
+				</div>
+				<div class="catalog__item" data-category="tea">
+					<div class="product catalog__product">
+						<img src="../../static/img/katalog/k10.png" alt="" class="product__img">
+						<div class="product__content">
+							<h3 class="product__title">Манго Танго</h3>
+							<p class="product__description">Турция</p>
+							<p class="opis">Воздействие: пробуждает</p>
+							<p class="opis">Вкус: освежающий, с ароматом манго</p>
+						</div>
+						<footer class="product__footer">
+							<div class="product__sizes">
+								<button class="product__size is-active" type="button">100гр</button>
+								<button class="product__size" type="button">300гр</button>
+								<button class="product__size" type="button">500гр</button>
+							</div>
+							<div class="product__bottom">
+								<div class="product__price">
+									<span class="product__price-value">99</span>
+									<span class="product__currency">&#8381;</span>
+								</div>
+								<button class="btn product__btn" type="button">Купить</button>
+							</div>
+						</footer>
+					</div>
+				</div>
+				<div class="catalog__item" data-category="tea">
+					<div class="product catalog__product">
+						<img src="../../static/img/katalog/k11.png" alt="" class="product__img">
+						<div class="product__content">
+							<h3 class="product__title">Васильковый</h3>
+							<p class="product__description">Россия</p>
+							<p class="opis">Воздействие: успокаивает</p>
+							<p class="opis">Вкус: освежающий, с ароматом василька</p>
+						</div>
+						<footer class="product__footer">
+							<div class="product__sizes">
+								<button class="product__size is-active" type="button">100гр</button>
+								<button class="product__size" type="button">300гр</button>
+								<button class="product__size" type="button">500гр</button>
+							</div>
+							<div class="product__bottom">
+								<div class="product__price">
+									<span class="product__price-value">56</span>
+									<span class="product__currency">&#8381;</span>
+								</div>
+								<button class="btn product__btn" type="button">Купить</button>
+							</div>
+						</footer>
+					</div>
+				</div>
+				<div class="catalog__item" data-category="tea">
+					<div class="product catalog__product">
+						<img src="../../static/img/katalog/k12.png" alt="" class="product__img">
+						<div class="product__content">
+							<h3 class="product__title">Царь полей</h3>
+							<p class="product__description">Россия</p>
+							<p class="opis">Воздействие: бодрит</p>
+							<p class="opis">Вкус: освежающий, с ароматом ромашки</p>
+						</div>
+						<footer class="product__footer">
+							<div class="product__sizes">
+								<button class="product__size is-active" type="button">100гр</button>
+								<button class="product__size" type="button">300гр</button>
+								<button class="product__size" type="button">500гр</button>
+							</div>
+							<div class="product__bottom">
+								<div class="product__price">
+									<span class="product__price-value">40</span>
+									<span class="product__currency">&#8381;</span>
+								</div>
+								<button class="btn product__btn" 								data-sb-id-or-vendor-code="09"
+								data-sb-product-name="Царь полей"
+								data-sb-product-price="40"
+								data-sb-product-quantity="1"
+								data-sb-product-img="./img/katalog/k12.png"
+								type="button">Купить</button>
+							</div>
+						</footer>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

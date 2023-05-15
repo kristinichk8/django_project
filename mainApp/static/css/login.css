@@ -1,0 +1,66 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f2f8f2;
+  font-family: 'Spectral', regular;
+	color: #1B563D;
+
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+  
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.inputCoolKristinicha {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #1B563D
+ !important;
+}
+
+.forma-vxoda:focus {
+  color: #a0cb9f;
+  background-color: #fff;
+  border-color: #a0cb9f;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem #a0cb9f;
+}
+
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #a0cb9f;
+  border-color: #a0cb9f;
+}
+
+.btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem #a0cb9f;
+}
